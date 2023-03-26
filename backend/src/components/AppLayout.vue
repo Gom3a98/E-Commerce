@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from "./Navbar.vue";
 import Sidebar from "./Sidebar.vue";
+import Spinner from "./Core/Spinner.vue"
 import {ref} from 'vue'
 const sidebarOpened = ref(true);
 

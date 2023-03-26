@@ -12,22 +12,23 @@
         <router-link :to="{name: 'app.products'}"
                      class="flex items-center p-2 rounded transition-colors hover:bg-black/30">
       <span class="mr-2 text-gray-300">
-        <ViewListIcon class="w-5"/>
+        <BuildingStorefrontIcon class="w-5"/>
       </span>
             <span class="text-xs">
         Products
       </span>
         </router-link>
-        <router-link :to="{name: 'app.products'}"
+        <router-link :to="{name: 'app.orders'}"
                      class="flex items-center p-2 rounded transition-colors hover:bg-black/30">
       <span class="mr-2 text-gray-300">
-        <ViewListIcon class="w-5"/>
+
+        <ShoppingBagIcon class="w-5"/>
       </span>
             <span class="text-xs">
         Orders
       </span>
         </router-link>
-        <router-link :to="{name: 'app.products'}"
+        <router-link :to="{name: 'app.users'}"
                      class="flex items-center p-2 rounded transition-colors hover:bg-black/30">
       <span class="mr-2 text-gray-300">
         <UsersIcon class="w-5"/>
@@ -36,7 +37,7 @@
         Users
       </span>
         </router-link>
-        <router-link :to="{name: 'app.products'}"
+        <router-link :to="{name: 'app.customers'}"
                      class="flex items-center p-2 rounded transition-colors hover:bg-black/30">
       <span class="mr-2 text-gray-300">
         <UserGroupIcon class="w-5"/>
@@ -45,7 +46,7 @@
         Customers
       </span>
         </router-link>
-        <router-link :to="{name: 'app.products'}"
+        <router-link :to="{name: 'app.reports'}"
                      class="flex items-center p-2 rounded transition-colors hover:bg-black/30">
       <span class="mr-2 text-gray-300">
         <ChartBarIcon class="w-5"/>
@@ -53,12 +54,13 @@
             <span class="text-xs">
         Reports
       </span>
+
         </router-link>
     </div>
 </template>
 
 <script setup>
-import {HomeIcon, UserGroupIcon, UsersIcon, ViewListIcon, ChartBarIcon} from '@heroicons/vue/24/outline'
+import {HomeIcon, UserGroupIcon, UsersIcon, ViewListIcon, ChartBarIcon , BuildingStorefrontIcon  , ShoppingBagIcon} from '@heroicons/vue/24/outline'
 </script>
 
 <style scoped>
